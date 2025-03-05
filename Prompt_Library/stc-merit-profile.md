@@ -1,9 +1,9 @@
 # PROMPT − Use case 3: Establishing a Competency-Based Merit Profile by Level
 
-# Context: 
+## Context: 
 A development program is a structured initiative that is designed to enhance the skills, knowledge, and abilities of a predetermined group. These programs are implemented to achieve specific objectives for professional growth and organizational effectiveness. The primary goal is to facilitate learning and development in areas identified as important.
 
-# Objective: 
+## Objective: 
 **Competency_Profile_-_DS_Analyst.pdf** – this file contains the details of the competency profile such as experience, skills, merit etc. required for a particular position for each proficiency level.
 The goal is to map somc’s (statement of merit criteria) with each proficiency level for different skills. So, based on the required skills/knowledge for different proficiency levels map the somc’s (job poster/description) to them for different skills. Map based on all the provided somc (job poster/description) details, which skills are required/relevant for which proficiency level for which skill area. The skills present in the somc’s should match with the expected knowledge/skills from a particular position for different skill areas. I will provide you the job poster description and your task would be to classify it to the corresponding proficiency level and skill group. 
 There are 3 proficiency levels: Foundation, Intermediate and Advanced. 
