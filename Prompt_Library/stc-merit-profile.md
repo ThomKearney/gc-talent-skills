@@ -5,9 +5,9 @@ A development program is a structured initiative that is designed to enhance the
 
 ## Objective: 
 **Competency_Profile_-_DS_Analyst.pdf** – this file contains the details of the competency profile such as experience, skills, merit etc. required for a particular position for each proficiency level.
-The goal is to map somc’s (statement of merit criteria) with each proficiency level for different skills. So, based on the required skills/knowledge for different proficiency levels map the somc’s (job poster/description) to them for different skills. Map based on all the provided somc (job poster/description) details, which skills are required/relevant for which proficiency level for which skill area. The skills present in the somc’s should match with the expected knowledge/skills from a particular position for different skill areas. I will provide you the job poster description and your task would be to classify it to the corresponding proficiency level and skill group. 
-There are 3 proficiency levels: Foundation, Intermediate and Advanced. 
-The skill areas are as follows: Behavioural competencies include Communication, Teamwork, Analytical thinking, Ethics and privacy, promote innovation and guide change and achieving results. 
+The goal is to map somc’s (statement of merit criteria) with each proficiency level for different skills. So, based on the required skills/knowledge for different proficiency levels map the somc’s (job poster/description) to them for different skills. Map based on all the provided somc (job poster/description) details, which skills are required/relevant for which proficiency level for which skill area. The skills present in the somc’s should match with the expected knowledge/skills from a particular position for different skill areas. I will provide you the **job poster description** and your task would be to classify it to the corresponding proficiency level and skill group.  
+There are 3 proficiency levels: Foundation, Intermediate and Advanced.  
+The skill areas are as follows: Behavioural competencies include Communication, Teamwork, Analytical thinking, Ethics and privacy, promote innovation and guide change and achieving results.  
 Technical competencies include Data Management, Mathematics and Statistics, Machine Learning, Programming, Data Visualization, Project Management, Storytelling and Business acumen.
 
 ## Output instructions: 
