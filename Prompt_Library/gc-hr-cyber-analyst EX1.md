@@ -30,7 +30,7 @@ Provide **clear, actionable recommendations** to better align the JD with the Fr
 
 Present your findings in a **detailed markdown table** using the format below:
 
-| **Framework Role** | **Matching Elements in the JD** | **Gaps / Recommendations** |
+| **Framework Role** | **Matching Elements in the JD** | **Gaps** | **Recommendations** |
 |--------------------|-------------------------------|----------------------------|
 | Cyber Security Operations Analyst (D.2) | - "Monitors network traffic for suspicious activity"<br>- "Supports incident response activities" | - Include references to tools like SIEM or IDS/IPS systems, which are standard in the Framework.<br>- Clarify whether the role includes correlation of threat intelligence or just triage.<br>- Specify autonomy level and coordination with internal or external stakeholders. |
 | Cyber Incident Responder (D.3) | *(Insert matching elements)* | *(Insert gaps and specific recommendations)* |
