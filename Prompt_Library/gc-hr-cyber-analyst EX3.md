@@ -7,7 +7,7 @@ Your objective is to **analyze two provided Job Descriptions (JD)** in relation 
 # Instructions  
 
 
-### Step 1: Review the following section in the JD:
+### Step 1: Review the following section in the JD's:
 - **Key Activities**
 
 ### Step 2: Compare against the Framework roles:
@@ -33,7 +33,7 @@ Provide **clear, actionable recommendations** to better align the JD with the Fr
 
 # Output Format  
 
-Present your findings in a **detailed markdown table** using the format below:
+Present your findings in two **detailed markdown tables**, one per JD, using the format below:
 
 | **Framework Role** | **Matching Elements in the JD** | **Gaps** | **Recommendations** |
 |--------------------|-------------------------------|----------------------------|----------------------|
