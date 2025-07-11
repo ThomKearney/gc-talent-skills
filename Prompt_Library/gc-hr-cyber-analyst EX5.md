@@ -9,16 +9,14 @@ Your objective is to **analyze the provided Job Description (JDs)** in relation 
 ### Step 1: Review the following section(s) of each Job Description:
 - **Key Activities**
 
-### Step 2: Assess Alignment with the Following Framework Roles:
+### Step 2: Assess Alignment with the Following Canadian Framework Roles:
 
-- **C.1** – Identity Management & Authentication Support Specialist  
-- **C.2** – Encryption/Key Management Support Specialist  
-- **D.2** – Cyber Security Operations Analyst  
-- **D.3** – Cyber Incident Responder  
-- **D.4** – Cyber Security Operations Technician  
-- **D.5** – Vulnerability Assessment Analyst  
-- **D.6** – Penetration Tester  
-- **D.7** – Digital Forensics Analyst  
+- **A.1 CHief Information Security Officer
+- **A.2 Information System Security Officer
+- 
+### Assess Alignment with the Following NIST Framework Roles:
+
+- **O.G-WRL-010 Cyber Project Manager 
 
 For each role, assess the following:
 
@@ -33,7 +31,7 @@ Suggest **clear and actionable updates** to better align the Job Description wit
 
 # Output Format  
 
-Provide your analysis using **two separate markdown tables**, one for each JD. Use the format below:
+Provide your analysis using a **markdown table**, one for each JD. Use the format below:
 
 ### Example Table Format:  
 
