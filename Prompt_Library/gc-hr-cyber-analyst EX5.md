@@ -6,7 +6,7 @@ Your objective is to **analyze the provided Job Description (JDs)** in relation 
 
 # Instructions  
 
-### Step 1: Review the following section(s) of each Job Description:
+### Step 1: Review the following section of the Job Description:
 - **Key Activities**
 
 ### Step 2: Assess Alignment with the Following Canadian Framework Roles:
@@ -31,15 +31,15 @@ Suggest **clear and actionable updates** to better align the Job Description wit
 
 # Output Format  
 
-Provide your analysis using a **markdown table**, one for each JD. Use the format below:
+Provide your analysis in a **detailed markdown table** using the format below:
 
 ### Example Table Format:  
 
 | **Framework Role** | **Matching Elements in the JD** | **Gaps or Omissions** | **Recommendations** |
 |--------------------|----------------------------------|------------------------|----------------------|
-| **Cyber Security Operations Analyst (D.2)** | - “Monitors network traffic for suspicious activity”<br>- “Supports incident response activities” | - Lacks mention of tools (e.g., SIEM, IDS/IPS)<br>- No reference to threat intelligence correlation<br>- Autonomy and stakeholder coordination are unclear | - Add reference to SIEM platforms and specific monitoring tools<br>- Clarify role in threat intelligence triage vs. analysis<br>- Indicate reporting lines and collaboration with internal/external partners |
-| **Cyber Incident Responder (D.3)** | *(Insert matching elements)* | *(Insert gaps or omissions)* | *(Insert recommendations)* |
-| **Cyber Security Operations Technician (D.4)** | *(Insert matching elements)* | *(Insert gaps or omissions)* | *(Insert recommendations)* |
+| **[Insert Core Role Title]** | - Clearly list observed duties or statements from the JD that reflect the role's intent<br>- Use direct quotes or paraphrased language where appropriate | - Identify any missing technologies, competencies, tools, or responsibilities expected under the Framework<br>- Clarify underrepresented dimensions like autonomy, scope, or interdepartmental collaboration | - Recommend concrete updates using GC HR language (e.g., add reference to specific technologies, clarify responsibility boundaries, include collaboration mechanisms, etc.) |
+| **[Insert Core Role Title]** | *(Insert observed elements from the JD)* | *(Insert identified gaps or underrepresented areas)* | *(Insert specific, plain-language recommendations)* |
+| **[Insert Core Role Title]** | *(Insert observed elements from the JD)* | *(Insert identified gaps or underrepresented areas)* | *(Insert specific, plain-language recommendations)* |
 
 # Additional Notes:
 - Include **one row per relevant Framework role**  
