@@ -22,39 +22,37 @@ Your task is to **analyze two provided Job Descriptions (JDs)** in relation to t
 
 For each role that is relevant, assess the following:
 
-- **Alignment Score (out of 5)**: Rate overall alignment to the Framework role  
-  - 5 – Full alignment (well-defined, comprehensive)  
-  - 4 – Strong alignment (most elements present)  
-  - 3 – Moderate alignment (some gaps in responsibilities or competencies)  
-  - 2 – Limited alignment (several key elements missing)  
-  - 1 – Minimal alignment (vague or incidental overlap)  
-  - 0 – No alignment (does not reflect this role at all)  
-- **Matching Elements in the JD**: Specific language, tasks, or competencies that align  
-- **Gaps or Omissions**: Key missing Framework elements (e.g., tools, responsibilities, context)  
-- **Recommendations**: Actionable updates using Government of Canada HR terminology and classification practices
+- **Alignment Score (out of 5)**: Rate the degree to which the JD aligns with the role  
+  - 5 – Full alignment (clearly defined and complete)  
+  - 4 – Strong alignment (most core elements present)  
+  - 3 – Moderate alignment (several omissions or generalizations)  
+  - 2 – Limited alignment (many elements missing or vague)  
+  - 1 – Minimal alignment (mentions topic without role clarity)  
+  - 0 – No alignment (role not reflected in the JD)  
+
+- **Matching Elements in the JD**: Point to specific phrases or activities that align with responsibilities, competencies, or tools described in the Framework  
+- **Gaps or Omissions**: Indicate what’s missing or underdeveloped based on the Framework’s expectations (e.g., specific tools, scope, autonomy, threat context)  
+- **Recommendations**: Provide concrete updates using Government of Canada HR language to improve clarity, classification accuracy, and alignment with the Framework
 
 ## Step 3: Provide Recommendations  
 Recommendations should focus on:
-- Improving clarity of duties, scope, and autonomy  
-- Embedding relevant tools, responsibilities, or competencies  
-- Better representing role-specific expectations from the Framework  
-- Ensuring the JD supports effective workforce planning and classification
+- Clarifying responsibilities, scope, and context  
+- Including essential tools, technologies, or threat scenarios  
+- Strengthening classification integrity based on core role requirements  
+- Improving duty statements using clear, standards-based language
 
 # Output Format  
 
-Use **one markdown table per Job Description** using the format below:
+Use **one markdown table per Job Description**, with **one row per relevant Framework role**. Use the following format as an example structure:
 
-### Example Table Format:  
+### Example Table Format (Template Only):
 
 | **Framework Role** | **Alignment (0–5)** | **Matching Elements in the JD** | **Gaps or Omissions** | **Recommendations** |
 |--------------------|----------------------|----------------------------------|------------------------|----------------------|
-| **Cyber Security Operations Analyst (D.2)** | 4 | - “Monitors network traffic for suspicious activity”<br>- “Supports incident response activities” | - Lacks mention of tools (e.g., SIEM, IDS/IPS)<br>- No reference to threat intelligence correlation<br>- Autonomy and stakeholder coordination are unclear | - Add reference to SIEM platforms and specific monitoring tools<br>- Clarify role in threat intelligence triage vs. analysis<br>- Indicate reporting lines and collaboration with internal/external partners |
-| **Cyber Incident Responder (D.3)** | *(Insert score)* | *(Insert matching elements)* | *(Insert gaps or omissions)* | *(Insert recommendations)* |
-| **Cyber Security Operations Technician (D.4)** | *(Insert score)* | *(Insert matching elements)* | *(Insert gaps or omissions)* | *(Insert recommendations)* |
+| *[Insert Role Name]* | *[Insert Score]* | *- [Example activity or phrase from JD]*<br>*- [Additional supporting element]* | *- [Missing technology or tool]*<br>*- [Unclear autonomy or context]* | *- [Suggested revision or addition to improve alignment]* |
+| *[Insert Role Name]* | *[Insert Score]* | *[...]* | *[...]* | *[...]* |
 
 # Additional Notes:
-- Include only the **Framework roles that are relevant** to the JD  
-- If **no alignment exists**, state “No alignment” in the table with a brief explanation  
-- Use language aligned to the **Cyber Security Skills Framework (2022)** and **Treasury Board classification practices**  
-- Structure observations using **clear, evidence-based rationale** drawn from the JD’s Key Activities
-
+- Do not include roles with 0 alignment unless explicitly stating “No alignment” with a rationale  
+- Avoid speculative responsibilities not supported by the JD  
+- Keep all recommendations grounded in **classification best practices and the Framework's role definitions**
