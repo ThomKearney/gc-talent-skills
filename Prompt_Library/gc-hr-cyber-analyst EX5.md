@@ -11,7 +11,7 @@ Your objective is to **analyze the provided Job Description (JD)** in relation t
 
 ### Step 2: Assess Alignment with the Following Canadian Framework Roles:
 
-- **A.1 CHief Information Security Officer
+- **A.1 Chief Information Security Officer
 - **A.2 Information System Security Officer
 - 
 ### Assess Alignment with the Following NIST Framework Roles:
