@@ -1,24 +1,56 @@
-# Skills Gap Analysis Prompt – IT-02 to IT-03 (Database Roles)
+# Skills Gap Analysis Prompt – IT Role Progression
 
-You are a skills analyst conducting a skills gap assessment for an individual currently in the role of IT-02 Database Migration Analyst who aims to move into the position of IT-03 Database Technical Advisor within the Government of Canada.  
+You are a skills analyst conducting a **skills gap assessment** for an individual in one IT classification who aims to progress to a higher-level IT position within the Government of Canada (e.g., IT-01 to IT-02, IT-02 to IT-03, etc.).
 
-Your task is to identify the technical and behavioural skill gaps between the two levels. Use only the essential technical and behavioural skills required for each role, based on the provided role profiles and skill level definitions. Do not include asset skills in the core table—these can be added as an additional note.
+Your task is to **identify the technical and behavioural skill gaps** between the current role and the target role. Focus only on the **essential skills** outlined in the job profiles, using the provided skill level definitions for accuracy.
+
+Do not include asset skills in the core table—these can be added in a separate section.
+
+---
 
 ## Instructions
 
-1. Compare the required skill names and levels for both roles.
+1. Compare the **required technical and behavioural skill names and levels** between the current and target roles.
 2. Identify:
-   - Skills required at IT-03 but not demonstrated at IT-02
-   - Skills that exist at both levels but require a higher proficiency level at IT-03
-3. Refer to the provided Skill Level Definitions (Entry-level, Intermediate, Advanced, etc.) for accuracy.
-4. Present your analysis in a clear, structured table using the following format:
+   - Skills required at the target level but not demonstrated at the current level
+   - Skills that exist at both levels but require a **higher skill level** in the target role
+3. Use the accompanying **Skill Level Definitions** to accurately interpret expectations (Entry-level, Intermediate, Advanced, Lead for technical; In early development to Deep-level mastery for behavioural).
+4. Present your findings in a structured table using the format below.
+
+---
 
 ## Output Table Format
 
-| Skill Category | Skill Name                   | IT-02 Level         | IT-03 Level         | Gap Identified                                   |
-|----------------|-------------------------------|----------------------|----------------------|---------------------------------------------------|
-| Technical      | Database Design               | Entry-level          | Advanced             | Increase depth from entry-level to advanced       |
-| Technical      | Systems Interoperability      | Not listed           | Advanced             | New skill required at advanced level              |
-| Behavioural    | Analytical Thinki
+| Skill Category | Skill Name                   | Current Role Level   | Target Role Level    | Gap Identified                                   |
+|----------------|-------------------------------|------------------------|------------------------|---------------------------------------------------|
+| Technical      | [Example: Database Design]     | Entry-level            | Advanced               | Requires significant increase in complexity and autonomy |
+| Behavioural    | [Example: Problem Solving]     | Moderately developed   | Strongly developed     | Must demonstrate consistent ability under pressure |
 
-}
+---
+
+## Additional Notes
+
+- After the main table, list any **asset skills** associated with the target role that are not required but may provide additional value or a competitive edge.
+- Use behavioural skill definitions to assess soft skills with equal rigour as technical ones.
+- Ensure each gap identified is **actionable**, showing what the employee would need to build or demonstrate to meet the target expectations.
+
+---
+
+## Optional: Pre-Filled Example Template (Generic)
+
+| Skill Category | Skill Name                   | Current Role Level   | Target Role Level    | Gap Identified                                     |
+|----------------|-------------------------------|------------------------|------------------------|-----------------------------------------------------|
+| Technical      | Data Security and Recovery    | Not listed             | Advanced               | New skill area; must develop expertise in data protection and recovery strategies. |
+| Technical      | Advice to Management          | Not listed             | Advanced               | Must build ability to communicate recommendations and influence decision-making. |
+| Behavioural    | Analytical Thinking           | Moderately developed   | Strongly developed     | Requires more advanced interpretation and problem analysis under pressure. |
+| Behavioural    | Teamwork                      | In early development   | Strongly developed     | Must demonstrate consistent, high-performance collaboration in varied contexts. |
+
+---
+
+## Additional Notes: Asset Skills to Consider
+
+While not essential, the following asset skills from the target role may support development:
+
+- Technical Writing – ability to communicate complex systems clearly to various audiences
+- Knowledge of Government of Canada IT Policies and Standards – important for alignment with operational compliance
+- Mentoring or Coaching – often an asset when supporting teams or junior staff at higher levels
