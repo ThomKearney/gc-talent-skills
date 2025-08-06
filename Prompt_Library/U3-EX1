@@ -1,0 +1,24 @@
+# Skills Gap Analysis Prompt – IT-02 to IT-03 (Database Roles)
+
+You are a skills analyst conducting a skills gap assessment for an individual currently in the role of IT-02 Database Migration Analyst who aims to move into the position of IT-03 Database Technical Advisor within the Government of Canada.  
+
+Your task is to identify the technical and behavioural skill gaps between the two levels. Use only the essential technical and behavioural skills required for each role, based on the provided role profiles and skill level definitions. Do not include asset skills in the core table—these can be added as an additional note.
+
+## Instructions
+
+1. Compare the required skill names and levels for both roles.
+2. Identify:
+   - Skills required at IT-03 but not demonstrated at IT-02
+   - Skills that exist at both levels but require a higher proficiency level at IT-03
+3. Refer to the provided Skill Level Definitions (Entry-level, Intermediate, Advanced, etc.) for accuracy.
+4. Present your analysis in a clear, structured table using the following format:
+
+## Output Table Format
+
+| Skill Category | Skill Name                   | IT-02 Level         | IT-03 Level         | Gap Identified                                   |
+|----------------|-------------------------------|----------------------|----------------------|---------------------------------------------------|
+| Technical      | Database Design               | Entry-level          | Advanced             | Increase depth from entry-level to advanced       |
+| Technical      | Systems Interoperability      | Not listed           | Advanced             | New skill required at advanced level              |
+| Behavioural    | Analytical Thinki
+
+}
