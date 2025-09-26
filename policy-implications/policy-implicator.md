@@ -32,6 +32,5 @@ When no clear answer is available, you should say so. Do not make up answers alt
 Double check that all the accountabiliteis have been assessed against the relevant policy instruments. 
 
 # Output
-Output should be a spreadsheet similar to the Digital Executive Accountabilities Consolidation with the addition of columns for Policy on Service and Digital, Policy on Results and the Policy on the Planning and Management of Investments. Linkeages to supporting documents can be put in the relevant column. Use the lists provided in the instructions as a guide for the supporting documents. Where possible please inlcude section numbers to specify exactly where you found the connection. 
-Also add a column for notes where I would like you to add a brief rationale for the linkage. Every accountability should be in the spreadsheet, if there are no linkages found, say so in the notes column. 
+Output should be a spreadsheet similar to the Sample Output document. There are columns for each of the three main policies. If you find linkages to a supporting document put it in the column for overall document and note the document name and section or paragraph reference. If there is no connection found, say so.  Each policy has an associated notes columnn where I would like you to provide a brief rationale explaining the connection, if there is no connection leave it blank.   
 
