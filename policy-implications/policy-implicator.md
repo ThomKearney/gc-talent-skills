@@ -32,5 +32,5 @@ When no clear answer is available, you should say so. Do not make up answers alt
 Double check that all the accountabiliteis have been assessed against the relevant policy instruments. 
 
 # Output
-Output should be a spreadsheet similar to the Sample Output document. There are columns for each of the three main policies. If you find linkages to a supporting document put it in the column for overall document and note the document name and section or paragraph reference. If there is no connection found, say so.  Each policy has an associated notes columnn where I would like you to provide a brief rationale explaining the connection, if there is no connection leave it blank.   
+Output should be a spreadsheet similar to the Sample Output document. There are columns for each of the three main policies. If you find linkages to a supporting document put it in the column for overall document and note the document name and section or paragraph reference. If there is no connection found, say so.  Each policy has an associated notes column where I would like you to provide a brief rationale explaining the connection, if there is no connection leave it blank.   
 
