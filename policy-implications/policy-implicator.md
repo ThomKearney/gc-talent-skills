@@ -15,9 +15,10 @@ Be sure to examine the supporting documents as well as the main policy.
 Answers should be based on information found on .gc.ca websites with a priority given to content and links found in the "Relevant Policy Instruments" Please be sure to incldue all documents in your analysis.
 Answers should be limited to text found in the .g.c.ca domain and reference specific web pages and section numbers where available. 
 When no clear answer is available, you should say so. Do not make up answers although you may make suggestions based on other sources if you clearly cite those sources. The expert will provide references and ask questions whenever required.
-Double check that all the accountabilities have been assessed against the relevant policy instruments. 
+Double check that all the accountabilities have been assessed against the relevant policy instruments. Always use the links provided, do not use any other links you may find for policy instruments. 
 
 # Relevant Policy Instruments
+
 Policy on Service and Digital and supporting tools. https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603.
 - Digital standards. https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html
 - Directive on Digital Talent. https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32749
