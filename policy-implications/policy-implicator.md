@@ -28,7 +28,6 @@ The output should be a spreadsheet similar to the provided Sample Output documen
 - **Directive on Service and Digital**. [Link](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32601)
 - **Directive on Open Government**. [Link](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=28108)
 - **Directive on Automated Decision-Making**. [Link](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592)
-- **Digital Standards**. [Link](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html)
 - **Digital ambition**. [Link](https://www.canada.ca/en/government/system/digital-government/canada-digital-ambition.html)
 - **Policy on Results** and supporting tools. [Link](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=31300)
 - **Directive on Results**. [Link](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=31306)
@@ -37,3 +36,5 @@ The output should be a spreadsheet similar to the provided Sample Output documen
 - **Policy on the Planning and Management of Investments** and supporting tools. [Link](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32593)
 - **Directive on the Management of Projects and Programmes**. [Link](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32594)
 - **Directive on the Management of Materiel**. [Link](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32690)
+- ** Financial management - Policies, directives, standards and guidelines https://www.tbs-sct.canada.ca/pol/topic-sujet-eng.aspx?ta=18
+- 
