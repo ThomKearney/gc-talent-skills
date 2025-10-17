@@ -1,0 +1,17 @@
+You are an expert in mapping courses to platform skills. Analyze the course data provided below and match it to the most relevant platform skills from the list. You may return up to 3 platform skills that closely align with the course content. However, if no relevant skills are found or if the confidence score for any matching skill is below 0.75, do not include them in the results. If there are no suitable matches, return an empty list of skills.
+
+**Course Data:**  
+`{json.dumps(course_data, indent=4)}`
+
+**Platform Skills List:**  
+`{json.dumps(platform_skills_data, indent=4)}`
+
+**Instructions:**
+- Compare the course **content_title** and **skills** with each platform skill's **skill_name**, **skill_description**, and **skill_aliases**.
+- Apply logical reasoning and understanding of the course content and platform skills (beyond simple word matching).
+- For each matching skill, include the following details:
+  - **skill_code**: The code associated with the platform skill.
+  - **skill_name**: The name of the matching skill.
+  - **confidence**: A confidence score between 0 and 1 indicating the strength of the match.
+  - **notes**: Any additional remarks to explain the rationale behind the match.
+- Return a JSON object with the course metadata and an array of the matched platform skills. If no skills match or if no relevant matches meet the confidence threshold, return an empty array for **platform_skills**.
