@@ -1,0 +1,149 @@
+{
+    "Classification": "IT-03",
+    "Stream": "IT Database Management",
+    "Sub-Stream": null,
+    "Job Title": "Database Technical Advisor",
+    "Base Information": {
+        "Location of work": "variable",
+        "Language level": "variable",
+        "Security clearance": "variable",
+        "Education": "IT Education Standard"
+    },
+    "Description": "As an IT-03 Technical Advisor in Database Management, you will provide specialized technical advice, support, and guidance in the design, development, and administration of database management solutions. Your role will focus on optimizing database performance, ensuring security and compliance, and leading research and development initiatives. You will collaborate with technical teams, senior management, and external stakeholders to implement best practices and innovative solutions in database management.",
+    "Example Key Tasks": [
+        "Provide expert technical advice and support for database management solutions, including design, installation, testing, and maintenance.",
+        "Lead research and feasibility studies to identify innovative solutions and emerging trends in database management.",
+        "Develop and implement database security, backup, and recovery procedures to ensure data integrity and availability.",
+        "Support database migration strategies, including cloud-based and on-premise solutions.",
+        "Analyze and optimize database performance, ensuring efficiency and scalability.",
+        "Develop and enforce standards, policies, and best practices for database administration and security.",
+        "Consult and negotiate with internal teams, external vendors, and stakeholders to align database strategies with business needs.",
+        "Mentor and coach junior database analysts, fostering knowledge-sharing and professional development.",
+        "Lead or participate in project teams responsible for the development, testing, integration, and maintenance of database management solutions.",
+        "Prepare technical reports, research papers, and recommendations for IT strategy and database advancements."
+    ],
+    "Skills": {
+        "Essential Technical": [
+            {
+                "Skill Name": "Database Systems",
+                "Skill Level": "Advanced",
+                "Definition": "Demonstrated ability to work with database systems such as Oracle, MySQL, MariaDB or PostgreSQL."
+            },
+            {
+                "Skill Name": "Database Design",
+                "Skill Level": "Advanced",
+                "Definition": "Demonstrated ability to develop database models that meet data requirements, using best practices."
+            },
+            {
+                "Skill Name": "Database Programming Tools",
+                "Skill Level": "Advanced",
+                "Definition": "Demonstrated ability to use and work in data programming tools such as SQL, NSQL, Excel, or other ETL (extract, transform, load) tools."
+            },
+            {
+                "Skill Name": "Systems Interoperability",
+                "Skill Level": "Advanced",
+                "Definition": "Demonstrated ability to apply concrete knowledge of this language to store, manipulate, and retrieve data from database systems such as MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres."
+            },
+            {
+                "Skill Name": "Database Trends and Directions",
+                "Skill Level": "Advanced",
+                "Definition": "Demonstrated knowledge of modern standards, tools, and best practices in database design and management, as well as demonstrated understanding of anticipated future industry evolutions."
+            },
+            {
+                "Skill Name": "Database Migration",
+                "Skill Level": "Advanced",
+                "Definition": "Demonstrated ability to plan, execute, and manage the migration of databases to ensure data integrity, minimal downtime, and optimal performance. For example from on-premises systems to cloud-based environments."
+            },
+            {
+                "Skill Name": "Data Security and Recovery",
+                "Skill Level": "Advanced",
+                "Definition": "Demonstrated ability to protect databases from damage and intrusion while ensuring they are able to recovery quickly in the event of a failure."
+            },
+            {
+                "Skill Name": "Mentoring",
+                "Skill Level": "Advanced",
+                "Definition": "Demonstrated ability to provide advice, guidance, and support to individuals to aid in their professional development."
+            },
+            {
+                "Skill Name": "Advice to Management",
+                "Skill Level": "Advanced",
+                "Definition": "Demonstrated ability to develop evidence-based analysis and recommendations and to communicate this work to management, verbally or in writing, in a clear and meaningful way."
+            }
+        ],
+        "Asset Technical": [
+            {
+                "Skill Name": "Database Trends and Directions",
+                "Definition": "Demonstrated knowledge of modern standards, tools, and best practices in database design and management, as well as demonstrated understanding of anticipated future industry evolutions."
+            },
+            {
+                "Skill Name": "IT Support",
+                "Definition": "Demonstrated ability to provide technical support to clients, technical specialists or stakeholders on IT systems and services. This may include troubleshooting issues, resolving technical problems, and ensuring the proper application of solutions."
+            },
+            {
+                "Skill Name": "Database Software Installation Processes and Techniques",
+                "Definition": "Demonstrated ability to install and configure database software to ensure proper functionality."
+            },
+            {
+                "Skill Name": "Technical Writing",
+                "Definition": "Demonstrated ability to produce written products (such as reports, manuals, technical documentation, and corporate planning and reporting) with respect to digital products and services, including the demonstration of specialized knowledge of IT and the ability to present complex technical concepts in accessible, plain language for use by wide audiences."
+            },
+            {
+                "Skill Name": "Structured Query Language (SQL)",
+                "Definition": "Demonstrated ability to apply concrete knowledge of this language to store, manipulate, and retrieve data from database systems such as MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres."
+            },
+            {
+                "Skill Name": "Procedural SQL Programming",
+                "Definition": "Demonstrated ability to develop, implement, and optimize complex SQL queries and procedural logic using programming languages such as T-SQL or PL/SQL to enhance database performance and meet business requirements."
+            },
+            {
+                "Skill Name": "Communication to non-technical audiences",
+                "Definition": "Demonstrated ability to explain technical content using plain language and simple visual elements that are easy to understand."
+            },
+            {
+                "Skill Name": "Government of Canada IT Policies and Standards",
+                "Definition": "Demonstrated knowledge of Government of Canada requirements related to the successful and secure operation of government IT systems and services to Canadians. This includes the ability to apply knowledge of IT policies and standards to live operations."
+            }
+        ],
+        "Behavioural": [
+            {
+                "Skill Name": "Analytical Thinking",
+                "Skill Level": "Strongly developed",
+                "Definition": "Demonstrated ability to interpret, link and analyze information in order to understand issues."
+            },
+            {
+                "Skill Name": "Attention to Detail",
+                "Skill Level": "Strongly developed",
+                "Definition": "Demonstrated ability to pay close attention to all elements of an activity or product, identify any gaps or incomplete components, find inaccuracies and inconsistencies, and ensure that the task is completed in full according to the requirements."
+            },
+            {
+                "Skill Name": "Problem Solving",
+                "Skill Level": "Strongly developed",
+                "Definition": "Demonstrated ability to identify the source of an issue, and find and implement an effective solution."
+            },
+            {
+                "Skill Name": "Teamwork",
+                "Skill Level": "Strongly developed",
+                "Definition": "Demonstrated ability to work collaboratively with others to achieve common goals and positive results."
+            },
+            {
+                "Skill Name": "General Communication",
+                "Skill Level": "Moderately developed",
+                "Definition": "Demonstrated ability to receive, understand, develop, and share information in a clear, logical, respectful manner through verbal, visual and written interactions with others."
+            }
+        ]
+    },
+    "Skill Level Definitions": {
+        "Technical": {
+            "Lead": "Demonstrated ability to identify, scope, undertake, and deliver on tasks of significant complexity with wide areas of impact, even in challenging circumstances. Demonstrated ability to lead the development of tasks, and potentially teams, for the organization in this area. Usually associated with manager or technical lead roles.",
+            "Advanced": "Demonstrated ability to scope, undertake, and deliver on tasks of moderate to high complexity under minimal levels of supervision. Demonstrated ability to mentor others in lower levels of skill development, either through direct supervision or by setting examples and providing explanations. Usually associated with senior technical advisor or entry-level supervisory roles.",
+            "Intermediate": "Demonstrated ability to consistently deliver on tasks of low to moderate complexity under minimal supervision and tasks of higher-level complexity under moderate supervision and mentoring. Usually associated with intermediate roles.",
+            "Entry-level": "Demonstrated ability to consistently deliver on tasks of low complexity under minimal supervision and tasks of moderate complexity under strong supervision or with direct mentoring. Usually associated with junior or entry-level roles."
+        },
+        "Behavioural": {
+            "Deep-level mastery": "Consistently demonstrated as well-developed with all audiences, even under conditions of significant stress and in challenging situations. Behaviour is adapted and nuanced to the situation without drifting away from its core value.",
+            "Strongly developed": "Consistently demonstrated as well-developed in daily conditions with all audiences, frequently demonstrated in situations of stress and in moderately challenging situations with most audiences, and intermittently demonstrated under conditions of significant stress and in challenging situations.",
+            "Moderately developed": "Frequently demonstrated as well-developed in most daily situations with most audiences, and intermittently demonstrated under conditions of stress and in moderately challenging situations.",
+            "In early development": "Demonstrated, but consistency varies significantly by audience and circumstance. Intermittently demonstrated in daily situations and inconsistently demonstrated with certain audiences or under conditions of stress or in moderately challenging situations. Potential is there, but there is learning to be done."
+        }
+    }
+}
