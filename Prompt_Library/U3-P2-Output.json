@@ -1,0 +1,64 @@
+[
+  {
+    "content_title": "Zen and the Art of Digital Transformation: Leading a Mindful Redesign of the Digital Enterprise",
+    "content_id": "169183",
+    "content_type": "Book",
+    "skills": [
+      "Digital Transformation",
+      "Employee Wellbeing"
+    ],
+    "platform_skills": [
+      {
+        "skill_code": "A-MGT",
+        "skill_name": "Advice to Management",
+        "confidence": 0.85,
+        "notes": "The course focuses on leading a mindful redesign of the digital enterprise, which aligns with providing strategic advice and recommendations to management."
+      },
+      {
+        "skill_code": "MENT",
+        "skill_name": "Mentoring",
+        "confidence": 0.8,
+        "notes": "The emphasis on leadership and guiding digital transformation suggests a connection to mentoring and professional guidance."
+      },
+      {
+        "skill_code": "IT-SOLAN",
+        "skill_name": "Solutions Analysis-IT Operations",
+        "confidence": 0.78,
+        "notes": "The course's focus on digital transformation and redesign aligns with analyzing and optimizing IT solutions to meet organizational goals."
+      }
+    ]
+  },
+  {
+    "content_title": "CompTIA PenTest+: Enumeration & Reconnaissance Tools",
+    "content_id": "it_csptpl24_08_enus",
+    "content_type": "Course",
+    "skills": [
+      "Network Scanning",
+      "Test Tools"
+    ],
+    "platform_skills": [
+      {
+        "skill_code": "DATA-SEC",
+        "skill_name": "Data Security and Recovery",
+        "confidence": 0.9,
+        "notes": "The course focuses on tools and techniques for network scanning and reconnaissance, which are critical for identifying vulnerabilities and ensuring data security."
+      },
+      {
+        "skill_code": "SYS-INTEROP",
+        "skill_name": "Systems Interoperability",
+        "confidence": 0.85,
+        "notes": "The course involves tools for network scanning and testing, which align with ensuring systems can exchange data and interoperate effectively."
+      },
+      {
+        "skill_code": "PROB-SOL",
+        "skill_name": "Problem Solving",
+        "confidence": 0.8,
+        "notes": "The course requires analytical skills to identify issues in network security and implement effective solutions using test tools."
+      }
+    ]
+  }
+
+  /* ... all your remaining objects continue here
+     in exactly the same structure & spacing ... */
+
+]
