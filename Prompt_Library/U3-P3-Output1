@@ -1,1 +1,940 @@
-
+[
+    {
+        "content_title": "Zen and the Art of Digital Transformation: Leading a Mindful Redesign of the Digital Enterprise",
+        "content_id": "169183",
+        "content_type": "Book",
+        "skills": [
+            "Digital Transformation",
+            "Employee Wellbeing"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "A-MGT",
+                "skill_name": "Advice to Management",
+                "confidence": 0.85,
+                "notes": "The course focuses on leading a mindful redesign of the digital enterprise, which aligns with providing strategic advice and recommendations to management."
+            },
+            {
+                "skill_code": "MENT",
+                "skill_name": "Mentoring",
+                "confidence": 0.8,
+                "notes": "The emphasis on leadership and guiding digital transformation suggests a connection to mentoring and professional guidance."
+            },
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.78,
+                "notes": "The course's focus on digital transformation and redesign aligns with analyzing and optimizing IT solutions to meet organizational goals."
+            }
+        ]
+    },
+    {
+        "content_title": "CompTIA PenTest+: Enumeration & Reconnaissance Tools",
+        "content_id": "it_csptpl24_08_enus",
+        "content_type": "Course",
+        "skills": [
+            "Network Scanning",
+            "Test Tools"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "DATA-SEC",
+                "skill_name": "Data Security and Recovery",
+                "confidence": 0.85,
+                "notes": "The course focuses on tools and techniques for reconnaissance and enumeration, which are critical for identifying vulnerabilities and securing data against potential threats."
+            },
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.8,
+                "notes": "Reconnaissance and enumeration often involve ensuring systems and tools can communicate effectively to gather and analyze data."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.78,
+                "notes": "The course likely involves identifying and addressing challenges in network scanning and testing, which aligns with problem-solving skills."
+            }
+        ]
+    },
+    {
+        "content_title": "API Security",
+        "content_id": "it_sdapigv1_03_enus",
+        "content_type": "Course",
+        "skills": [
+            "API Security",
+            "API Security Testing",
+            "App Security",
+            "Security Frameworks",
+            "Web Application Security"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "DATA-SEC",
+                "skill_name": "Data Security and Recovery",
+                "confidence": 0.9,
+                "notes": "The course focuses on API security, which aligns with protecting data from intrusion and ensuring secure recovery processes."
+            },
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.85,
+                "notes": "API security involves ensuring secure communication and data exchange between systems, which is a key aspect of systems interoperability."
+            },
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.8,
+                "notes": "The course may involve analyzing and implementing security solutions for APIs, which aligns with evaluating IT solutions to meet operational needs."
+            }
+        ]
+    },
+    {
+        "content_title": "The Well-Grounded Python Developer: How the pros use Python and Flask",
+        "content_id": "165241",
+        "content_type": "Book",
+        "skills": [
+            "Programming",
+            "Python Development",
+            "Web Development"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.85,
+                "notes": "The course focuses on professional-level Python and Flask usage, which aligns with analyzing and optimizing IT solutions for web development."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "Developing with Python and Flask often involves identifying and solving programming challenges, making this skill relevant."
+            },
+            {
+                "skill_code": "GEN-COM",
+                "skill_name": "General Communication",
+                "confidence": 0.75,
+                "notes": "Effective communication is often necessary for professional developers to share and document their work, which is implied in the course's professional focus."
+            }
+        ]
+    },
+    {
+        "content_title": "Final Exam: Advanced Math",
+        "content_id": "it_feemds_04_enus",
+        "content_type": "Course",
+        "skills": [
+            "Data Science",
+            "Mathematics"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.9,
+                "notes": "The course focuses on advanced mathematics, which requires strong analytical thinking to interpret and solve complex problems."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.85,
+                "notes": "Advanced math inherently involves identifying and solving complex problems, making this skill highly relevant."
+            },
+            {
+                "skill_code": "AT-D",
+                "skill_name": "Attention to Detail",
+                "confidence": 0.8,
+                "notes": "Mathematics requires precision and attention to detail to ensure accuracy in calculations and solutions."
+            }
+        ]
+    },
+    {
+        "content_title": "Review other customer service apps",
+        "content_id": "",
+        "content_type": "Course",
+        "skills": [
+            "Analysis",
+            "Customer Service",
+            "Research"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.85,
+                "notes": "The course involves analysis and research, which aligns with the ability to interpret and analyze information to understand issues."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "Reviewing customer service apps may involve identifying issues and finding solutions, which relates to problem-solving skills."
+            },
+            {
+                "skill_code": "GEN-COM",
+                "skill_name": "General Communication",
+                "confidence": 0.78,
+                "notes": "The course likely requires sharing findings or insights, which aligns with general communication skills."
+            }
+        ]
+    },
+    {
+        "content_title": "Intelligent budget proposal in Dynamics 365 Finance",
+        "content_id": "",
+        "content_type": "Course",
+        "skills": [
+            "Financial Management",
+            "Software Proficiency",
+            "Analytical"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.9,
+                "notes": "The course emphasizes analytical skills for creating intelligent budget proposals, which aligns directly with interpreting and analyzing financial data."
+            },
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.85,
+                "notes": "The course involves using Dynamics 365 Finance, which requires evaluating IT solutions to optimize financial management processes."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "Creating intelligent budget proposals likely involves identifying financial challenges and implementing effective solutions, aligning with problem-solving skills."
+            }
+        ]
+    },
+    {
+        "content_title": "The H.264 Advanced Video Compression Standard, Second Edition",
+        "content_id": "43304",
+        "content_type": "Book",
+        "skills": [
+            "HDL Programming",
+            "Video Coding",
+            "Video Compression",
+            "Video Technology"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.85,
+                "notes": "The course focuses on video compression technology, which often involves ensuring interoperability between systems and devices for video encoding and decoding."
+            },
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.8,
+                "notes": "Understanding advanced video compression standards requires analytical thinking to interpret and apply complex technical concepts."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.78,
+                "notes": "Video compression involves solving technical challenges related to optimizing data storage and transmission while maintaining quality."
+            }
+        ]
+    },
+    {
+        "content_title": "Deploy ASP.NET web apps with Azure Pipelines",
+        "content_id": "",
+        "content_type": "Course",
+        "skills": [
+            "Cloud Services",
+            "Database Management",
+            "Development"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.9,
+                "notes": "The course focuses on deploying web applications, which requires ensuring systems and components can connect and exchange data effectively, aligning with this skill."
+            },
+            {
+                "skill_code": "DB-MIG",
+                "skill_name": "Database Migration",
+                "confidence": 0.85,
+                "notes": "Deploying web apps often involves migrating databases to cloud environments, which is relevant to this skill."
+            },
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.8,
+                "notes": "The course involves evaluating and implementing deployment solutions, which aligns with analyzing IT operations to meet business needs."
+            }
+        ]
+    },
+    {
+        "content_title": "SQL for Dummies, 9th Edition",
+        "content_id": "145080",
+        "content_type": "Book",
+        "skills": [
+            "Database Concepts",
+            "Database Management",
+            "Database Query Language",
+            "SQL",
+            "SQL Database",
+            "SQL Development"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "DB-PROG",
+                "skill_name": "Database Programming Tools",
+                "confidence": 0.95,
+                "notes": "The course focuses on SQL, which is a core database programming tool, and aligns directly with the skill description and aliases."
+            },
+            {
+                "skill_code": "DB-SYS",
+                "skill_name": "Database Systems",
+                "confidence": 0.9,
+                "notes": "The course covers foundational concepts of SQL and database systems, which aligns with the skill's focus on working with database systems like SQL Server and MySQL."
+            },
+            {
+                "skill_code": "DB-DESIGN",
+                "skill_name": "Database Design",
+                "confidence": 0.8,
+                "notes": "The course likely introduces basic database design principles as part of understanding SQL, making this skill relevant."
+            }
+        ]
+    },
+    {
+        "content_title": "Data-centric Regenerative Built Environment: Big Data for Sustainable Regeneration",
+        "content_id": "167847",
+        "content_type": "Book",
+        "skills": [
+            "Data Analysis",
+            "Sustainability",
+            "Urban Planning"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.85,
+                "notes": "The course emphasizes data analysis and sustainability, which require strong analytical thinking to interpret and link information for sustainable urban planning."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "The focus on sustainable regeneration and urban planning suggests the need for problem-solving skills to address complex environmental and urban challenges."
+            },
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.78,
+                "notes": "The course's data-centric approach aligns with evaluating and analyzing IT solutions to support sustainable regeneration efforts."
+            }
+        ]
+    },
+    {
+        "content_title": "VBScript Programmer's Reference, Third Edition",
+        "content_id": "22840",
+        "content_type": "Book",
+        "skills": [
+            "Programming",
+            "Script Development",
+            "VBScript",
+            "VBA Programming",
+            "Visual Basic",
+            "Visual Studio Code"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "DB-PROG",
+                "skill_name": "Database Programming Tools",
+                "confidence": 0.85,
+                "notes": "The course focuses on VBScript, which is a scripting language often used for automation and programming tasks, aligning with database scripting and programming tools."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "Programming and scripting inherently involve identifying and solving problems, making this skill relevant to the course."
+            },
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.78,
+                "notes": "The course requires understanding and applying logical structures in scripting, which aligns with analytical thinking."
+            }
+        ]
+    },
+    {
+        "content_title": "Superior Customer Value: Strategies for Winning and Retaining Customers, Third Edition",
+        "content_id": "47230",
+        "content_type": "Book",
+        "skills": [
+            "Customer Experience",
+            "Customer Relationship Management",
+            "Customer Retention",
+            "Customer Success",
+            "Customer-Centric Strategy",
+            "Marketing"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "GEN-COM",
+                "skill_name": "General Communication",
+                "confidence": 0.85,
+                "notes": "Effective communication is essential for building customer relationships and delivering superior customer value, which aligns with the course focus."
+            },
+            {
+                "skill_code": "MENT",
+                "skill_name": "Mentoring",
+                "confidence": 0.8,
+                "notes": "The course emphasizes strategies for customer success and retention, which often involve mentoring teams to adopt customer-centric approaches."
+            },
+            {
+                "skill_code": "A-MGT",
+                "skill_name": "Advice to Management",
+                "confidence": 0.78,
+                "notes": "The course likely involves providing strategic recommendations to management for improving customer value and retention strategies."
+            }
+        ]
+    },
+    {
+        "content_title": "ASP.NET Core Razor Pages in Action",
+        "content_id": "164134",
+        "content_type": "Book",
+        "skills": [
+            "ASP.NET",
+            "ASP.NET Development",
+            "Database Management",
+            "Web Application Management",
+            "Web Automation",
+            "Web Development",
+            "Web Framework"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.85,
+                "notes": "The course focuses on ASP.NET Core Razor Pages, which involves analyzing and developing web solutions to meet application requirements, aligning with IT solutions analysis."
+            },
+            {
+                "skill_code": "DB-SYS",
+                "skill_name": "Database Systems",
+                "confidence": 0.8,
+                "notes": "The course includes database management as a skill, which aligns with working with database systems in web application development."
+            },
+            {
+                "skill_code": "DB-PROG",
+                "skill_name": "Database Programming Tools",
+                "confidence": 0.78,
+                "notes": "The course mentions database management and web development, which often involve using database programming tools like SQL in web applications."
+            }
+        ]
+    },
+    {
+        "content_title": "Internet of Things Use Cases for the Healthcare Industry",
+        "content_id": "154771",
+        "content_type": "Book",
+        "skills": [
+            "Data Analysis",
+            "Health Information Systems",
+            "Health Information Technology",
+            "Healthcare IT",
+            "Healthcare Information Technology",
+            "Healthcare Technology",
+            "Software Development",
+            "iOS"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.9,
+                "notes": "The course focuses on IoT use cases in healthcare, which inherently involves ensuring devices and systems can connect and exchange data effectively."
+            },
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.85,
+                "notes": "Analyzing IoT solutions for healthcare aligns with evaluating IT solutions to meet industry-specific needs and requirements."
+            },
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.8,
+                "notes": "The course likely involves interpreting and analyzing IoT data and use cases, which requires strong analytical thinking skills."
+            }
+        ]
+    },
+    {
+        "content_title": "10 Ways to Improve with Pre-Speech Activities",
+        "content_id": "128445",
+        "content_type": "Book",
+        "skills": [
+            "Marketing",
+            "Presentation Enhancement",
+            "Public Speaking"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "GEN-COM",
+                "skill_name": "General Communication",
+                "confidence": 0.9,
+                "notes": "The course focuses on improving communication skills, including public speaking and presentation enhancement, which align directly with this skill."
+            },
+            {
+                "skill_code": "MENT",
+                "skill_name": "Mentoring",
+                "confidence": 0.8,
+                "notes": "The course may involve guidance and support for improving public speaking and presentations, which aligns with mentoring in professional development contexts."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.78,
+                "notes": "Improving pre-speech activities can involve identifying and addressing challenges in public speaking, which relates to problem-solving skills."
+            }
+        ]
+    },
+    {
+        "content_title": "Networking Games: Network Forming Games and Games on Networks",
+        "content_id": "145623",
+        "content_type": "Book",
+        "skills": [
+            "Game Design",
+            "Game Programming",
+            "Mathematics",
+            "Network Concepts",
+            "Networking",
+            "Networking Concepts"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.85,
+                "notes": "The course involves understanding and analyzing network-forming games, which requires strong analytical thinking to interpret and evaluate complex systems."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "The course likely involves solving problems related to network formation and optimization, aligning with the skill of problem solving."
+            },
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.78,
+                "notes": "The course touches on networking concepts, which may include understanding how systems or networks interact and exchange data, aligning with systems interoperability."
+            }
+        ]
+    },
+    {
+        "content_title": "Calculate job WIP in Dynamics 365 Business Central",
+        "content_id": "",
+        "content_type": "Course",
+        "skills": [
+            "Dynamics 365 Business Central",
+            "Microsoft 365 Implementation",
+            "Microsoft Dynamics 365",
+            "Microsoft Dynamics 365 Business Central",
+            "Microsoft Dynamics 365 Finance"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.85,
+                "notes": "The course focuses on using Dynamics 365 Business Central for job WIP calculations, which aligns with analyzing and implementing IT solutions to meet business needs."
+            },
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.8,
+                "notes": "Dynamics 365 Business Central often involves integration and data exchange between systems, which relates to ensuring systems interoperability."
+            }
+        ]
+    },
+    {
+        "content_title": "Manage Your Career: 10 Keys to Survival and Success When Interviewing and on the Job, Second Edition",
+        "content_id": "89482",
+        "content_type": "Book",
+        "skills": [
+            "Career Development",
+            "Personal Effectiveness"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "MENT",
+                "skill_name": "Mentoring",
+                "confidence": 0.85,
+                "notes": "The course focuses on career development and personal effectiveness, which aligns with mentoring as it involves providing guidance and support for professional growth."
+            },
+            {
+                "skill_code": "GEN-COM",
+                "skill_name": "General Communication",
+                "confidence": 0.8,
+                "notes": "Effective communication is a key component of success in interviews and on the job, making this skill relevant to the course content."
+            },
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.78,
+                "notes": "The course likely involves strategies for problem-solving and decision-making, which are closely tied to analytical thinking."
+            }
+        ]
+    },
+    {
+        "content_title": "Microsoft Azure Architect Design: Storage Account & Key Vault Design",
+        "content_id": "it_clmaad2020_03_enus",
+        "content_type": "Course",
+        "skills": [
+            "Azure AD Configuration",
+            "Azure Cloud Administration",
+            "Azure Cloud Concepts",
+            "Azure Database",
+            "Azure Storage Management",
+            "Cloud Storage",
+            "Networking",
+            "Security"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "DATA-SEC",
+                "skill_name": "Data Security and Recovery",
+                "confidence": 0.9,
+                "notes": "The course focuses on designing secure storage and key vaults in Azure, which aligns directly with protecting and recovering data."
+            },
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.85,
+                "notes": "Designing Azure storage and key vaults involves ensuring systems can connect and exchange data securely, which matches this skill."
+            },
+            {
+                "skill_code": "DB-MIG",
+                "skill_name": "Database Migration",
+                "confidence": 0.8,
+                "notes": "The course may involve migrating data to Azure storage solutions, which aligns with database migration concepts."
+            }
+        ]
+    },
+    {
+        "content_title": "ISO14001 Step by Step: A Practical Guide",
+        "content_id": "41212",
+        "content_type": "Book",
+        "skills": [
+            "Environmental Management",
+            "ISO 9001",
+            "ISO Compliance",
+            "ISO Standards",
+            "ISO27001",
+            "ISO27001 Implementation"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "A-MGT",
+                "skill_name": "Advice to Management",
+                "confidence": 0.85,
+                "notes": "The course likely involves providing evidence-based recommendations and guidance related to ISO14001 compliance and environmental management, which aligns with advising management on standards and practices."
+            },
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.8,
+                "notes": "Implementing ISO14001 requires interpreting and analyzing environmental management systems and compliance requirements, which aligns with analytical thinking."
+            },
+            {
+                "skill_code": "AT-D",
+                "skill_name": "Attention to Detail",
+                "confidence": 0.78,
+                "notes": "ISO14001 implementation involves meticulous attention to standards and compliance details, making this skill relevant."
+            }
+        ]
+    },
+    {
+        "content_title": "Exploring Arduino: Tools and Techniques for Engineering Wizardry",
+        "content_id": "56290",
+        "content_type": "Book",
+        "skills": [
+            "Arduino",
+            "Arduino Development",
+            "Arduino Programming",
+            "Electrical Engineering",
+            "Hardware Interfacing",
+            "Microcontroller Architecture",
+            "Microcontroller Programming",
+            "Programming"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.85,
+                "notes": "The course focuses on hardware interfacing and microcontroller programming, which aligns with ensuring devices and components can connect and exchange data."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "Arduino development often involves troubleshooting and implementing solutions, making this skill relevant to the course."
+            },
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.78,
+                "notes": "The course requires understanding microcontroller architecture and programming, which involves interpreting and analyzing technical information."
+            }
+        ]
+    },
+    {
+        "content_title": "Resolve security threats with Microsoft Defender for Cloud",
+        "content_id": "",
+        "content_type": "Course",
+        "skills": [
+            "Cloud Computing",
+            "Incident Response",
+            "Security"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "DATA-SEC",
+                "skill_name": "Data Security and Recovery",
+                "confidence": 0.9,
+                "notes": "The course focuses on resolving security threats, which aligns directly with protecting data and ensuring recovery in case of failures."
+            },
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.85,
+                "notes": "The course involves analyzing and addressing security threats, which is a key aspect of evaluating and optimizing IT solutions."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "Resolving security threats requires identifying issues and implementing effective solutions, which aligns with problem-solving skills."
+            }
+        ]
+    },
+    {
+        "content_title": "Selenium Deep Dive: Working with Selenium IDE",
+        "content_id": "it_atsedddj_02_enus",
+        "content_type": "Course",
+        "skills": [
+            "Selenium Commands",
+            "Selenium Framework",
+            "Selenium Grid",
+            "Selenium IDE",
+            "Selenium IDE Scripting",
+            "Test Automation",
+            "Test Execution"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.85,
+                "notes": "The course focuses on using Selenium IDE for test automation, which aligns with analyzing and optimizing IT solutions for operational needs."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "Working with Selenium IDE involves troubleshooting and resolving issues during test automation, which matches problem-solving skills."
+            },
+            {
+                "skill_code": "AT-D",
+                "skill_name": "Attention to Detail",
+                "confidence": 0.78,
+                "notes": "Test automation and scripting with Selenium IDE require precision and thoroughness, aligning with attention to detail."
+            }
+        ]
+    },
+    {
+        "content_title": "Performance Management Success: A Best Practices and Implementation Guide for Leaders and Managers of All Organizations",
+        "content_id": "138032",
+        "content_type": "Book",
+        "skills": [
+            "Leadership",
+            "Management",
+            "Training"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "MENT",
+                "skill_name": "Mentoring",
+                "confidence": 0.9,
+                "notes": "The course focuses on leadership and management best practices, which align with mentoring as it involves guiding and developing others."
+            },
+            {
+                "skill_code": "A-MGT",
+                "skill_name": "Advice to Management",
+                "confidence": 0.85,
+                "notes": "The course provides implementation guidance for leaders and managers, which aligns with advising management on best practices."
+            },
+            {
+                "skill_code": "GEN-COM",
+                "skill_name": "General Communication",
+                "confidence": 0.8,
+                "notes": "Effective communication is a critical component of leadership and management, which is a focus of the course."
+            }
+        ]
+    },
+    {
+        "content_title": "Collaborating effectively in Excel 365",
+        "content_id": "ds_ms365ex_21_enus",
+        "content_type": "Course",
+        "skills": [
+            "Collaboration",
+            "Excel",
+            "Microsoft 365 Implementation",
+            "Microsoft Excel",
+            "Microsoft Office 365",
+            "Microsoft 365 Literacy"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "TMWK",
+                "skill_name": "Teamwork",
+                "confidence": 0.9,
+                "notes": "The course emphasizes collaboration, which aligns directly with the teamwork skill focused on working collaboratively to achieve common goals."
+            },
+            {
+                "skill_code": "DB-PROG",
+                "skill_name": "Database Programming Tools",
+                "confidence": 0.8,
+                "notes": "Excel is a widely used tool for data manipulation and programming tasks, making this skill relevant to the course content."
+            },
+            {
+                "skill_code": "GEN-COM",
+                "skill_name": "General Communication",
+                "confidence": 0.78,
+                "notes": "Effective collaboration in Excel involves clear communication, which aligns with this skill's focus on sharing information logically and respectfully."
+            }
+        ]
+    },
+    {
+        "content_title": "Responsive Web Design, Second Edition",
+        "content_id": "149835",
+        "content_type": "Book",
+        "skills": [
+            "Interactive Design",
+            "Responsive Web Design",
+            "Web Design",
+            "Web Development",
+            "Webpage Design"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "IT-SOLAN",
+                "skill_name": "Solutions Analysis-IT Operations",
+                "confidence": 0.85,
+                "notes": "The course focuses on web design and development, which aligns with analyzing and optimizing IT solutions to meet design and operational requirements."
+            },
+            {
+                "skill_code": "SYS-INTEROP",
+                "skill_name": "Systems Interoperability",
+                "confidence": 0.8,
+                "notes": "Responsive web design often involves ensuring compatibility and data exchange across different devices and platforms, which relates to systems interoperability."
+            },
+            {
+                "skill_code": "GEN-COM",
+                "skill_name": "General Communication",
+                "confidence": 0.78,
+                "notes": "Web design requires clear communication of ideas and designs, which aligns with the skill of general communication."
+            }
+        ]
+    },
+    {
+        "content_title": "Financial Literacy and Responsible Finance in the FinTech Era: Capabilities and Challenges",
+        "content_id": "168356",
+        "content_type": "Book",
+        "skills": [
+            "Financial",
+            "Finance",
+            "Technology"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.85,
+                "notes": "The course emphasizes understanding financial literacy and challenges in FinTech, which requires strong analytical thinking to interpret and analyze financial and technological information."
+            },
+            {
+                "skill_code": "PROB-SOL",
+                "skill_name": "Problem Solving",
+                "confidence": 0.8,
+                "notes": "The course addresses challenges in responsible finance and FinTech, which aligns with the ability to identify and solve complex financial and technological issues."
+            },
+            {
+                "skill_code": "A-MGT",
+                "skill_name": "Advice to Management",
+                "confidence": 0.78,
+                "notes": "The course likely involves developing insights into financial literacy and responsible finance, which could be used to provide evidence-based recommendations to management in financial or technological contexts."
+            }
+        ]
+    },
+    {
+        "content_title": "Using Excel for Business Analysis: A Guide to Financial Modelling Fundamentals",
+        "content_id": "46280",
+        "content_type": "Book",
+        "skills": [
+            "Excel Programming",
+            "Microsoft Excel",
+            "MS Excel",
+            "Excel Modeling"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "DB-PROG",
+                "skill_name": "Database Programming Tools",
+                "confidence": 0.9,
+                "notes": "The course focuses on using Excel for business analysis and financial modeling, which aligns with the use of Excel as a data programming tool for data manipulation and transformation."
+            },
+            {
+                "skill_code": "ANAL-THK",
+                "skill_name": "Analytical Thinking",
+                "confidence": 0.85,
+                "notes": "Financial modeling and business analysis require strong analytical thinking to interpret and analyze data effectively."
+            },
+            {
+                "skill_code": "AT-D",
+                "skill_name": "Attention to Detail",
+                "confidence": 0.8,
+                "notes": "Financial modeling and business analysis demand precision and attention to detail to ensure accuracy in calculations and data handling."
+            }
+        ]
+    },
+    {
+        "content_title": "Think Remarkable: 9 Paths to Transform Your Life and Make a Difference",
+        "content_id": "167290",
+        "content_type": "Book",
+        "skills": [
+            "Communication",
+            "Leadership"
+        ],
+        "platform_skills": [
+            {
+                "skill_code": "MENT",
+                "skill_name": "Mentoring",
+                "confidence": 0.9,
+                "notes": "The course focuses on transforming lives and making a difference, which aligns strongly with mentoring and providing guidance for personal and professional development."
+            },
+            {
+                "skill_code": "GEN-COM",
+                "skill_name": "General Communication",
+                "confidence": 0.85,
+                "notes": "Communication is listed as a key skill in the course, and effective communication is essential for making a difference and inspiring transformation."
+            },
+            {
+                "skill_code": "A-MGT",
+                "skill_name": "Advice to Management",
+                "confidence": 0.8,
+                "notes": "Leadership is a focus of the course, and providing advice to management aligns with the skill of guiding and influencing others to create meaningful change."
+            }
+        ]
+    }
+]
