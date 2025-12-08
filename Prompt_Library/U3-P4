@@ -1,0 +1,80 @@
+You are an expert in mapping learning content to a standardized platform skill taxonomy.
+
+Your task is to:
+- Analyze the course data.
+- Compare it against the provided platform skills list.
+- Return up to 3 of the most relevant platform skills for the course, or none if there are no suitable matches.
+
+---
+
+COURSE DATA (JSON):
+{json.dumps(course_data, indent=4)}
+
+PLATFORM SKILLS LIST (JSON):
+{json.dumps(platform_skills_data, indent=4)}
+
+---
+
+MAPPING GUIDELINES
+
+1. What to compare
+   - From the course data, focus primarily on:
+     - `content_title`
+     - `skills`
+     - Any other descriptive text if present (e.g., `description`, `summary`, `learning_objectives` if available).
+   - From each platform skill, use:
+     - `skill_name`
+     - `skill_description`
+     - `skill_aliases`
+
+2. How to reason about matches
+   - Use semantic and conceptual understanding, not just keyword overlap.
+   - Prefer skills that reflect the **main focus** of the course rather than minor or incidental topics.
+   - If multiple platform skills are similar, choose the ones that best match the overall course intent and expected learner outcomes.
+
+3. Confidence scoring
+   - Assign a `confidence` score between 0 and 1 indicating how strongly the platform skill aligns with the course.
+   - Use these guidelines:
+     - 0.90–1.00: Very strong, direct match to the core course topic.
+     - 0.80–0.89: Good match, clearly relevant but not perfectly aligned with the entire course.
+     - 0.75–0.79: Reasonable match, relevant but possibly narrower or broader than the course.
+     - Below 0.75: Too weak, uncertain, or only tangentially related.
+   - Only include skills in the output if their `confidence` is **≥ 0.75**.
+
+4. Selection rules
+   - You may return **up to 3** platform skills.
+   - Do **not** invent or modify skills. Only use skills that exist in the provided platform skills list.
+   - If no skills reach the 0.75 confidence threshold, return an empty list for `platform_skills`.
+
+---
+
+OUTPUT FORMAT (IMPORTANT)
+
+Return a **single JSON object** with the following structure and nothing else (no explanations outside this JSON):
+
+{
+  "course_metadata": {
+    // Echo back key metadata from the course_data that is most relevant for identification,
+    // such as:
+    // "course_id": ...,
+    // "content_title": ...,
+    // "provider": ...,
+    // or any other identifying fields present in course_data.
+  },
+  "platform_skills": [
+    {
+      "skill_code": "string, from platform skill",
+      "skill_name": "string, from platform skill",
+      "confidence": 0.0,
+      "notes": "Short explanation of why this skill matches the course."
+    }
+    // up to 3 such objects, or an empty list if no suitable skills
+  ]
+}
+
+Requirements:
+- `platform_skills` must be an array (possibly empty).
+- If no skills meet the confidence threshold, return:
+  "platform_skills": []
+- Do not include any fields other than `course_metadata` and `platform_skills` at the top level.
+- Do not include commentary or explanation outside the JSON response.
