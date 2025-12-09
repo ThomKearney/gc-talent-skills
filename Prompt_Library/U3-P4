@@ -50,31 +50,56 @@ MAPPING GUIDELINES
 
 OUTPUT FORMAT (IMPORTANT)
 
-Return a **single JSON object** with the following structure and nothing else (no explanations outside this JSON):
+<details> <summary><strong>OUTPUT FORMAT (CLICK TO EXPAND)</strong></summary>
 
-{
-  "course_metadata": {
-    // Echo back key metadata from the course_data that is most relevant for identification,
-    // such as:
-    // "course_id": ...,
-    // "content_title": ...,
-    // "provider": ...,
-    // or any other identifying fields present in course_data.
-  },
-  "platform_skills": [
-    {
-      "skill_code": "string, from platform skill",
-      "skill_name": "string, from platform skill",
-      "confidence": 0.0,
-      "notes": "Short explanation of why this skill matches the course."
-    }
-    // up to 3 such objects, or an empty list if no suitable skills
-  ]
-}
+Return a single table with the following structure and nothing else (no explanations outside the table):
 
-Requirements:
-- `platform_skills` must be an array (possibly empty).
-- If no skills meet the confidence threshold, return:
-  "platform_skills": []
-- Do not include any fields other than `course_metadata` and `platform_skills` at the top level.
-- Do not include commentary or explanation outside the JSON response.
+Output Table Requirements
+
+The table must contain:
+
+Two required rows:
+
+course_metadata
+
+platform_skills
+
+Additional rows for each matched platform skill (up to 3).
+
+Columns:
+
+field_name — identifies the category or skill
+
+skill_code — platform skill code (blank for course_metadata)
+
+skill_name — platform skill name (blank for course_metadata)
+
+confidence — confidence score (blank for course_metadata)
+
+notes — short explanation
+
+assessment — 1 if included, 0 if not included
+
+If no platform skills meet the 0.75 threshold:
+
+The platform_skills row must still appear with assessment = 0
+
+No additional skill rows are included
+
+REVISED OUTPUT TEMPLATE
+field_name	skill_code	skill_name	confidence	notes	assessment
+course_metadata				(insert relevant course metadata here)	1
+platform_skills				(summary statement: number of matched skills or “none”)	1
+Skill 1 (if any)	SC-XXX	Name	0.xx	Reason for match	1
+Skill 2 (if any)	SC-XXX	Name	0.xx	Reason for match	1
+Skill 3 (if any)	SC-XXX	Name	0.xx	Reason for match	1
+
+Notes:
+
+All rows must appear in a single table.
+
+Empty values should be left blank, not omitted.
+
+If no skills qualify, the table should contain only the first two rows, with assessment for platform_skills = 0.
+
+</details>
