@@ -1,0 +1,97 @@
+Make the following adjustments:
+
+Output must be valid JSON (easily converted).
+
+There should be two top-level sections: course_metadata and platform_skills.
+
+Add an assessment field for each platform skill (1 = Yes, 0 = No) based on whether the skill is determined to be a suitable match.
+
+Remove all references to confidence scoring.
+
+Task
+
+You are an expert in mapping learning content to a standardized platform skill taxonomy. Your task is to:
+
+Analyze the course data.
+
+Compare it against the provided platform skills list.
+
+Return up to 3 of the most relevant platform skills for the course, or none if no suitable matches exist.
+
+COURSE DATA (JSON)
+{json.dumps(course_data, indent=4)}
+
+PLATFORM SKILLS LIST (JSON)
+{json.dumps(platform_skills_data, indent=4)}
+
+MAPPING GUIDELINES
+1. What to compare
+
+From the course data, focus on:
+
+content_title
+
+skills
+
+Any descriptive text (description, summary, learning_objectives)
+
+From each platform skill, use:
+
+skill_name
+
+skill_description
+
+skill_aliases
+
+2. How to reason about matches
+
+Use semantic and conceptual understanding, not just keyword overlap.
+
+Choose skills that reflect the primary intent or core learning outcomes of the course.
+
+If multiple skills seem similar, choose the ones best aligned with the course’s main focus.
+
+3. Selection rules
+
+Return up to 3 platform skills.
+
+Do not invent or modify skills.
+
+Each included skill must have an assessment value:
+
+1 = relevant and appropriate
+
+0 = not relevant (skills with 0 must not appear in the final output)
+
+If no skills are relevant, return:
+
+"platform_skills": []
+
+OUTPUT FORMAT (IMPORTANT)
+
+Return only the following JSON object—no explanation or commentary outside the JSON:
+
+{
+  "course_metadata": {
+    // Echo back key metadata from course_data needed for identification
+    // Example fields: "course_id": ..., "content_title": ..., "provider": ...
+  },
+  "platform_skills": [
+    {
+      "skill_code": "string, from platform skills list",
+      "skill_name": "string, from platform skills list",
+      "assessment": 1,
+      "notes": "Short explanation of why this skill matches the course."
+    }
+    // Up to 3 such objects, or an empty list if no suitable skills
+  ]
+}
+
+
+Rules:
+
+platform_skills must always be an array (empty or not).
+
+Only course_metadata and platform_skills may appear at the top level.
+
+No commentary outside the JSON.
