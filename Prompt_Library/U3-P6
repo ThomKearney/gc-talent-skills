@@ -67,34 +67,14 @@ Return a **JSON table** in the following structure:
       "platform_skill_name": "string",
       "reasoning": "Short explanation of why this skill matches the course."
     }
+  // up to 3 such objects, or an empty list if no suitable skills
   ]
 }
 
 
-Rules:
-
-platform_skills must be an array (possibly empty).
-
-All row objects must include the same tabular fields:
-
-content_title
-
-description
-
-content_uuid
-
-content_type
-
-expertise_level
-
-skills
-
-platform_skill_code
-
-platform_skill_name
-
-assessment
-
-assessment_reasoning
-
-No extra fields, no commentary.
+Requirements:
+- `platform_skills` must be an array (possibly empty).
+- If no skills meet the confidence threshold, return:
+  "platform_skills": []
+- Do not include any fields other than `course_metadata` and `platform_skills` at the top level.
+- Do not include commentary or explanation outside the JSON response.
