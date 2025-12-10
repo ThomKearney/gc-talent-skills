@@ -58,16 +58,14 @@ Return a **JSON table** in the following structure:
   },
   "platform_skills": [
     {
-      "content_title": "...",
+      "skill: "...",
       "description": "...",
-      "content_uuid": "...",
-      "content_type": "...",
-      "expertise_level": "...",
-      "skills": "...",
-      "platform_skill_code": "string",
+      "skill_id": "...",
+      "skill families": "...",
+      "category": "...",
+      "platform_skill_id": "string",
       "platform_skill_name": "string",
-      "assessment": 1,
-      "assessment_reasoning": "Short explanation of why this skill matches the course."
+      "reasoning": "Short explanation of why this skill matches the course."
     }
   ]
 }
