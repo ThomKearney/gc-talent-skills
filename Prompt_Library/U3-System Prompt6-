@@ -1,0 +1,197 @@
+from promptflow import tool
+from openai import AzureOpenAI
+from typing import List, Dict, Any
+import json
+import re
+
+@tool
+def call_llm(courses: List[Dict[str, Any]], platform_skills: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    # 🔹 Azure OpenAI config
+    client = AzureOpenAI(
+        api_key="E9lwZ7co2wZYxf3WHOCczDO1VKx4xN20FwcwlJjNOBC3WAuyCyUAJQQJ99BFACYeBjFXJ3w3AAAAACOGwLfK",
+        api_version="2024-12-01-preview",
+        azure_endpoint="https://ai-thomaskearney-9142-transcript.openai.azure.com/"
+    )
+
+    deployment_name = "gpt-4o"
+
+    # Ensure value is a list
+    def to_list(x):
+        return x if isinstance(x, list) else [x]
+
+    # Helper to clean LLM response of markdown code fences
+    def clean_json_response(text: str) -> str:
+        text = text.strip()
+        text = re.sub(r"^```(?:json)?", "", text)
+        text = re.sub(r"```$", "", text)
+        return text.strip()
+
+    # Helper function to clean JSON keys and values of extra whitespace and newlines
+    def clean_json_keys_and_values(data: Any) -> Any:
+        if isinstance(data, dict):
+            # Clean both keys and values recursively
+            return {key.strip(): clean_json_keys_and_values(value) for key, value in data.items()}
+        elif isinstance(data, list):
+            return [clean_json_keys_and_values(item) for item in data]
+        else:
+            return data
+
+    # Choose amount of courses to batch through (for testing)
+    courses_to_process = courses[:30]  # This will give you only the first 10 courses
+    print(f"Processing {len(courses_to_process)} courses.")
+
+    enriched_courses = []
+
+    for course in courses_to_process:
+        title = str(course.get("content_title") or "")
+        cdescription = str(course.get("description") or "")
+        cuuid = str(course.get("content_id") or "")
+        ctype = str(course.get("content_type") or "")
+        expertise = str(course.get("expertise_level") or "")  # Fixing field to expertise_level
+        existing_skills = to_list(course.get("skills") or [])
+
+        existing_skills_str = ", ".join(map(str, existing_skills))
+
+        # Construct the course_data dictionary
+        course_data = {
+            "content_title": title,
+            "description": cdescription,
+            "content_uuid": cuuid,
+            "content_type": ctype,
+            "expertise_level": expertise,
+            "skills": existing_skills
+        }
+
+        platform_skills_data = platform_skills  # list of dicts
+
+        user_prompt = f"""
+        You are an expert in mapping learning content to a standardized platform skill taxonomy.
+
+Task
+- Analyze the provided course JSON.
+- Compare it semantically against the provided platform skills JSON.
+- Return up to 3 of the most relevant platform skills for the course, or an empty list if none meet the confidence threshold.
+
+Inputs (injected into this prompt):
+- COURSE DATA (JSON): {json.dumps(course_data, indent=4)}
+- PLATFORM SKILLS LIST (JSON): {json.dumps(platform_skills_data, indent=4)}
+
+Focus fields
+- From course data prioritize:
+  - content_title
+  - content_uuid
+  - content_type
+  - skills (expected: array of strings; if string, treat as single-item array)
+  - description
+  - expertise_level
+- From each platform skill use:
+  - skill_name
+  - skill_description
+
+Guidelines for matching
+- Use semantic understanding, not only keyword overlap.
+- Prefer platform skills that reflect the primary learning outcomes and main focus of the course.
+- If multiple platform skills are closely similar, choose the ones that best match the overall course intent and expected learner outcomes.
+- Return at most 3 platform skills, ordered by relevance (most relevant first).
+
+Confidence & selection policy
+- Only include a platform skill if the match is reasonably confident (i.e., clear semantic alignment with the course main focus).
+- If no skills meet that threshold, return an empty platform_skills array.
+- When ties occur, prefer skills that:
+  1) match course expertise_level (e.g., beginner vs advanced) if that information is encoded in skill metadata,
+  2) have more overlapping conceptual coverage (not just name overlap),
+  3) have aliases that match the course's terminology.
+
+Assessment requirement
+- For each selected platform skill include a short "reasoning" explaining why it was chosen (one or two sentences).
+
+Error handling
+- If required course fields are missing or the input JSON is malformed, fail gracefully by returning an empty platform_skills array and include the available course_metadata fields (use null for missing values).
+- Assume English language unless the course data indicates another language.
+
+Output format (strict JSON)
+Return exactly one JSON object with only these top-level keys: course_metadata and platform_skills.
+
+- course_metadata (object)
+  - content_title: string or null
+  - description: string or null
+  - content_uuid: string or null
+  - content_type: string or null
+  - expertise_level: string or null
+  - skills: array of strings (possibly empty)
+
+- platform_skills (array) — zero to three objects, each with:
+  - skill_name: string
+  - skill_description: string (if available; otherwise empty string)
+  - skill_families: array of strings (or empty array)
+  - category: string (or empty string)
+  - platform_skill_id: string (explicit platform id if available; otherwise same as skill_id)
+  - platform_skill_name: string (same as skill_name; included to match older systems)
+  - reasoning: string (short explanation, 1–2 sentences)
+
+If no skills meet the confidence threshold:
+{{
+  "course_metadata": {{ ...collected fields... }},
+  "platform_skills": []
+}}
+
+Strict requirements
+- Do not include any additional top-level fields.
+- platform_skills must be an array (possibly empty).
+- Do not invent, rename, or modify platform skills — only choose items from the provided platform skills list.
+- Provide up to three platform skill objects, each with the fields listed above.
+- Return only JSON (no extra commentary).
+End of prompt.
+        """
+
+        # Send the request to OpenAI
+        resp = client.chat.completions.create(
+            model=deployment_name,
+            messages=[
+                {"role": "system", "content": "You are an expert at mapping courses to skills."},
+                {"role": "user", "content": user_prompt}
+            ],
+            temperature=0,
+            max_tokens=800
+        )
+
+        # Log raw response for debugging
+        raw_response = resp.choices[0].message.content
+        print(f"Raw response for course {title}: {raw_response}")
+
+        # Clean the response
+        cleaned_response = clean_json_response(raw_response)
+
+        # Log cleaned response
+        print(f"Cleaned response for course {title}: {cleaned_response}")
+
+        # Clean the JSON keys and values
+        try:
+            response_json = json.loads(cleaned_response)
+            response_json = clean_json_keys_and_values(response_json)  # Clean the keys and values
+            platform_skills_mapped = response_json.get("platform_skills", [])
+        except Exception as e:
+            print(f"Error parsing JSON for course {title}: {e}")
+            platform_skills_mapped = []
+
+        # Ensure platform_skills is always present as an empty array if no skills are found
+        enriched_courses.append({
+            "content_title": title,
+            "description": cdescription,
+            "content_uuid": cuuid,
+            "content_type": ctype,
+            "skills": existing_skills,
+            "platform_skills": platform_skills_mapped  # Ensure platform_skills is included
+        })
+
+    # Ensure output directory exists
+    output_file_path = "/mnt/data/enriched_courses.json"
+    output_dir = "/mnt/data"
+    try:
+        with open(output_file_path, "w", encoding="utf-8") as f:
+            json.dump(enriched_courses, f, indent=4)
+        print(f"JSON file saved at: {output_file_path}")
+    except Exception as e:
+        print(f"Error saving JSON file: {e}")
+
+    return enriched_courses
