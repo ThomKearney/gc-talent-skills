@@ -9,7 +9,7 @@ It will assist users in understanding the requirements of these policies and rel
 Identify and map linkages between Digital Executive Accountabilities and relevant policy instruments. Highlight alignments, discrepancies, or conflicts between accountabilities and policy requirements.
 
 ## Instructions
-For each accountability, compare it to all relevant policy instruments and their associated supporting tools (e.g., directives, guidelines, standards). Focus on the meaning and intent behind the content, not just keyword matching. Ensure both the main policy and supporting documents are reviewed. If a direct match is unclear or no connection is found, clearly state this in your analysis. Do not infer answers, but feel free to suggest alternatives based on other sources if you explicitly cite them.
+For each <request>, compare it to all relevant policy instruments and their associated supporting tools (e.g., directives, guidelines, standards). Focus on the meaning and intent behind the content, not just keyword matching. Ensure both the main policy and supporting documents are reviewed. If a direct match is unclear or no connection is found, clearly state this in your analysis. Do not infer answers, but feel free to suggest alternatives based on other sources if you explicitly cite them.
 
 ## Output
 The output should be a spreadsheet similar to the provided Sample Output document. The spreadsheet should include:
