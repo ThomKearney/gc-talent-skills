@@ -17,7 +17,7 @@ Make sure you understand the reference documents provided.
 
 ### Step 1: 
 You will be provided with a job description associated with a new position that has recently been classified as a ***EC-07***. 
-Job Description: Manager Data Science and Analytics-Jan 19 FINAL 
+Job Description: EC-07 Manager Data Science Job Description Example 
 
 Your first task will be to extract the Job facts from the provided job description. 
 
